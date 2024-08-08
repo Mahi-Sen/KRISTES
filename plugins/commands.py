@@ -403,7 +403,7 @@ async def start(client, message):
                     ]]
                     await message.reply_text(
                         text="<b>📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ɴᴇxᴛ ꜰᴇᴡ ʜᴏᴜʀꜱ.</u> ✅\n\n♨️ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ( ɴᴏ ɴᴇᴇᴛ ᴛᴏ ᴠᴇʀɪꜰʏ ) 🚀\n\n 🔥 ᴄʟɪᴄᴋ /plan ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ 🔥</b>",
-                        protect_content=True,
+                        protect_content=False,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
                     return
@@ -490,7 +490,7 @@ async def start(client, message):
                     ]]
                     await message.reply_text(
                         text="<b>📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ɴᴇxᴛ ꜰᴇᴡ ʜᴏᴜʀꜱ.</u> ✅\n\n♨️ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ( ɴᴏ ɴᴇᴇᴛ ᴛᴏ ᴠᴇʀɪꜰʏ ) 🚀\n\n 🔥 ᴄʟɪᴄᴋ /plan ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ 🔥</b>",
-                        protect_content=True,
+                        protect_content=False,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
                     return
@@ -558,7 +558,7 @@ async def start(client, message):
             ]]
             await message.reply_text(
                 text="<b>📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ɴᴇxᴛ ꜰᴇᴡ ʜᴏᴜʀꜱ.</u> ✅\n\n♨️ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ( ɴᴏ ɴᴇᴇᴛ ᴛᴏ ᴠᴇʀɪꜰʏ ) 🚀\n\n 🔥 ᴄʟɪᴄᴋ /plan ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ 🔥</b>",
-                protect_content=True,
+                protect_content=False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             return
