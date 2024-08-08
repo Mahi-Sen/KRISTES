@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', " ")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/65fe86fc02a73f6fcf0ce.jpg https://telegra.ph/file/6fa70325813885809a64a.jpg https://telegra.ph/file/e06afc1e7abbcd8d4213a.jpg https://telegra.ph/file/3f4040b320d9b7840200a.jpg https://telegra.ph/file/3950fad740fb8ea894df7.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/2b2900431342e1d7479bf.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/73eebc1ef349850cb22a6.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/16cd37f214228d1f13a98.jpg")
@@ -31,16 +31,16 @@ CODE = (environ.get('CODE', 'https://graph.org/file/8da3d270a231b7f78e9c7.jpg'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
 STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HOW_TO_DOWNLOAD_MAHI/2'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Radhe_Krishn_Movies'))
 
 # Admins, Channels & Users
-OWNER_ID = int(environ.get("OWNER_ID", "7109446890"))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7109446890').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002226137912').split()] #Channel id for auto indexing ( make sure bot is admin )
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '7109446890').split()]
+OWNER_ID = int(environ.get("OWNER_ID", "6433510598"))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6433510598').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002123465338').split()] #Channel id for auto indexing ( make sure bot is admin )
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6433510598').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '7109446890').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002168211510') #Channel / Group Id for force sub ( make sure bot is admin )
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6433510598').split()]
+auth_channel = environ.get('AUTH_CHANNEL', '-1002156443382') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ANYA:ANYAA@cluster0.lx3jefm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "qwgsh")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kristeen:KRISTEEN123@cluster0.6d4xqaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -64,8 +64,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Radhe_Radhe_MS')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Radhe_Radhe_MS')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/THE_MAHI_KING')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/THE_MAHI_KING')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HOW_TO_DOWNLOAD_MAHI/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ʜᴀᴘᴘʏ ᴇɴᴊᴏʏᴍᴇɴᴛ ʙᴜᴅᴅʏ ❤️')
@@ -125,7 +125,7 @@ else:
     URL = "http://{}/".format(FQDN)
     
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002185568097'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002102964498'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
