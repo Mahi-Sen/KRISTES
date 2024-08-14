@@ -214,7 +214,7 @@ async def start(client, message):
                                 InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ⭐', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+utFQOim_9plhZDE1')
+                                InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+i446AvYpVTo1NWJl')
                             ]
                         ]
                     )
@@ -234,7 +234,7 @@ async def start(client, message):
                                 InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ⭐', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+utFQOim_9plhZDE1')
+                                InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+i446AvYpVTo1NWJl')
                             ]
                         ]
                     )
@@ -423,7 +423,7 @@ async def start(client, message):
               InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ⭐', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+utFQOim_9plhZDE1')
+              InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+i446AvYpVTo1NWJl')
              ]
             ]
         )
@@ -509,7 +509,7 @@ async def start(client, message):
               InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ⭐', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+utFQOim_9plhZDE1')
+              InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+i446AvYpVTo1NWJl')
              ]
             ]
         )
@@ -578,7 +578,7 @@ async def start(client, message):
               InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ⭐', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+utFQOim_9plhZDE1')
+              InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🎥🍿', url=f'https://t.me/+i446AvYpVTo1NWJl')
              ]
             ]
         )
